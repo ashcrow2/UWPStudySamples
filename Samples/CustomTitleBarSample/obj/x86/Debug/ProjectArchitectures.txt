@@ -1,0 +1,1 @@
+D:\study\uwpProjects\UWPSamples\Samples\CustomTitleBarSample\CustomTitleBarSample.csproj;x86
