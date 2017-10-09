@@ -24336,11 +24336,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\study\\uwpProjects\\UWPSamples\\Samples\\CustomTitleBarSample\\CustomTitleBarSample.csproj",
+      "projectUniqueName": "D:\\study\\uwpProjects\\UWPStudySamples\\Samples\\CustomTitleBarSample\\CustomTitleBarSample.csproj",
       "projectName": "CustomTitleBarSample",
-      "projectPath": "D:\\study\\uwpProjects\\UWPSamples\\Samples\\CustomTitleBarSample\\CustomTitleBarSample.csproj",
+      "projectPath": "D:\\study\\uwpProjects\\UWPStudySamples\\Samples\\CustomTitleBarSample\\CustomTitleBarSample.csproj",
       "packagesPath": "C:\\Users\\maozw\\.nuget\\packages\\",
-      "outputPath": "D:\\study\\uwpProjects\\UWPSamples\\Samples\\CustomTitleBarSample\\obj\\",
+      "outputPath": "D:\\study\\uwpProjects\\UWPStudySamples\\Samples\\CustomTitleBarSample\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

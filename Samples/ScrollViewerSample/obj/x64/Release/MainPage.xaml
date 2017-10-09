@@ -1,0 +1,43 @@
+﻿<Page
+    x:Class="ScrollViewerSample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ScrollViewerSample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ScrollViewer Width="500"
+                      Height="500"
+      
+                      >
+            <TextBlock TextWrapping="Wrap">sdsssssss本篇之所以起这样一个名字，是因为重点并非如何自定义控件，不涉及创建CustomControl和UserControl使用的Template和XAML概念。而是通过继承的方法来扩展一个现有的类，在继承的子类中增加属性和扩展行为。我们在《UWP开发入门（七）——下拉刷新》中提到过嵌套ScrollViewer的实现思路，本篇我们对ListView的第一个扩展行为，即是摒弃嵌套的做法，而是通过访问ListView内部的ScrollViewer控件，来监听ViewChanged事件访问ListView内部的ScrollViewer，必定离不开VisualTreeHelper类中的以下两个方法：　　本篇之所以起这样一个名字，是因为重点并非如何自定义控件，不涉及创建CustomControl和UserControl使用的Template和XAML概念。而是通过继承的方法来扩展一个现有的类，在继承的子类中增加属性和扩展行为。
+
+　　我们在《UWP开发入门（七）——下拉刷新》中提到过嵌套ScrollViewer的实现思路，本篇我们对ListView的第一个扩展行为，即是摒弃嵌套的做法，而是通过访问ListView内部的ScrollViewer控件，来监听ViewChanged事件。
+
+　　访问ListView内部的ScrollViewer，必定离不开VisualTreeHelper类中的以下两个方法：　　本篇之所以起这样一个名字，是因为重点并非如何自定义控件，不涉及创建CustomControl和UserControl使用的Template和XAML概念。而是通过继承的方法来扩展一个现有的类，在继承的子类中增加属性和扩展行为。
+
+　　我们在《UWP开发入门（七）——下拉刷新》中提到过嵌套ScrollViewer的实现思路，本篇我们对ListView的第一个扩展行为，即是摒弃嵌套的做法，而是通过访问ListView内部的ScrollViewer控件，来监听ViewChanged事件。
+
+　　访问ListView内部的ScrollViewer，必定离不开VisualTreeHelper类中的以下两个方法：　　本篇之所以起这样一个名字，是因为重点并非如何自定义控件，不涉及创建CustomControl和UserControl使用的Template和XAML概念。而是通过继承的方法来扩展一个现有的类，在继承的子类中增加属性和扩展行为。
+
+　　我们在《UWP开发入门（七）——下拉刷新》中提到过嵌套ScrollViewer的实现思路，本篇我们对ListView的第一个扩展行为，即是摒弃嵌套的做法，而是通过访问ListView内部的ScrollViewer控件，来监听ViewChanged事件。
+
+　　访问ListView内部的ScrollViewer，必定离不开VisualTreeHelper类中的以下两个方法：　　本篇之所以起这样一个名字，是因为重点并非如何自定义控件，不涉及创建CustomControl和UserControl使用的Template和XAML概念。而是通过继承的方法来扩展一个现有的类，在继承的子类中增加属性和扩展行为。
+
+　　我们在《UWP开发入门（七）——下拉刷新》中提到过嵌套ScrollViewer的实现思路，本篇我们对ListView的第一个扩展行为，即是摒弃嵌套的做法，而是通过访问ListView内部的ScrollViewer控件，来监听ViewChanged事件。
+
+　　访问ListView内部的ScrollViewer，必定离不开VisualTreeHelper类中的以下两个方法：　　本篇之所以起这样一个名字，是因为重点并非如何自定义控件，不涉及创建CustomControl和UserControl使用的Template和XAML概念。而是通过继承的方法来扩展一个现有的类，在继承的子类中增加属性和扩展行为。
+
+　　我们在《UWP开发入门（七）——下拉刷新》中提到过嵌套ScrollViewer的实现思路，本篇我们对ListView的第一个扩展行为，即是摒弃嵌套的做法，而是通过访问ListView内部的ScrollViewer控件，来监听ViewChanged事件。
+
+　　访问ListView内部的ScrollViewer，必定离不开VisualTreeHelper类中的以下两个方法：　　本篇之所以起这样一个名字，是因为重点并非如何自定义控件，不涉及创建CustomControl和UserControl使用的Template和XAML概念。而是通过继承的方法来扩展一个现有的类，在继承的子类中增加属性和扩展行为。
+
+　　我们在《UWP开发入门（七）——下拉刷新》中提到过嵌套ScrollViewer的实现思路，本篇我们对ListView的第一个扩展行为，即是摒弃嵌套的做法，而是通过访问ListView内部的ScrollViewer控件，来监听ViewChanged事件。
+
+　　访问ListView内部的ScrollViewer，必定离不开VisualTreeHelper类中的以下两个方法：　　ssssssssssssssssssssssssssssssssss</TextBlock>
+        </ScrollViewer>
+    </Grid>
+</Page>
+
