@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomTitleBarSample", "CustomTitleBarSample\CustomTitleBarSample.csproj", "{09EBAA32-0451-40AC-9BCB-D8D4CB85AE77}"
 EndProject
@@ -9,16 +9,21 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrollViewerSample", "Scrol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlTemplateSample", "ControlTemplateSample\ControlTemplateSample.csproj", "{9D7A8D10-2317-4487-8018-5FF3209CAACF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonConvertSample", "JsonConvertSample\JsonConvertSample.csproj", "{75BFF59E-BE07-45D1-99E2-6099BD8CBF2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM = Debug|ARM
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|ARM = Release|ARM
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09EBAA32-0451-40AC-9BCB-D8D4CB85AE77}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{09EBAA32-0451-40AC-9BCB-D8D4CB85AE77}.Debug|ARM.ActiveCfg = Debug|ARM
 		{09EBAA32-0451-40AC-9BCB-D8D4CB85AE77}.Debug|ARM.Build.0 = Debug|ARM
 		{09EBAA32-0451-40AC-9BCB-D8D4CB85AE77}.Debug|ARM.Deploy.0 = Debug|ARM
@@ -28,6 +33,7 @@ Global
 		{09EBAA32-0451-40AC-9BCB-D8D4CB85AE77}.Debug|x86.ActiveCfg = Debug|x86
 		{09EBAA32-0451-40AC-9BCB-D8D4CB85AE77}.Debug|x86.Build.0 = Debug|x86
 		{09EBAA32-0451-40AC-9BCB-D8D4CB85AE77}.Debug|x86.Deploy.0 = Debug|x86
+		{09EBAA32-0451-40AC-9BCB-D8D4CB85AE77}.Release|Any CPU.ActiveCfg = Release|x86
 		{09EBAA32-0451-40AC-9BCB-D8D4CB85AE77}.Release|ARM.ActiveCfg = Release|ARM
 		{09EBAA32-0451-40AC-9BCB-D8D4CB85AE77}.Release|ARM.Build.0 = Release|ARM
 		{09EBAA32-0451-40AC-9BCB-D8D4CB85AE77}.Release|ARM.Deploy.0 = Release|ARM
@@ -37,6 +43,7 @@ Global
 		{09EBAA32-0451-40AC-9BCB-D8D4CB85AE77}.Release|x86.ActiveCfg = Release|x86
 		{09EBAA32-0451-40AC-9BCB-D8D4CB85AE77}.Release|x86.Build.0 = Release|x86
 		{09EBAA32-0451-40AC-9BCB-D8D4CB85AE77}.Release|x86.Deploy.0 = Release|x86
+		{6014D627-C209-493A-9F83-EA546FBA0F42}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{6014D627-C209-493A-9F83-EA546FBA0F42}.Debug|ARM.ActiveCfg = Debug|ARM
 		{6014D627-C209-493A-9F83-EA546FBA0F42}.Debug|ARM.Build.0 = Debug|ARM
 		{6014D627-C209-493A-9F83-EA546FBA0F42}.Debug|ARM.Deploy.0 = Debug|ARM
@@ -46,6 +53,7 @@ Global
 		{6014D627-C209-493A-9F83-EA546FBA0F42}.Debug|x86.ActiveCfg = Debug|x86
 		{6014D627-C209-493A-9F83-EA546FBA0F42}.Debug|x86.Build.0 = Debug|x86
 		{6014D627-C209-493A-9F83-EA546FBA0F42}.Debug|x86.Deploy.0 = Debug|x86
+		{6014D627-C209-493A-9F83-EA546FBA0F42}.Release|Any CPU.ActiveCfg = Release|x86
 		{6014D627-C209-493A-9F83-EA546FBA0F42}.Release|ARM.ActiveCfg = Release|ARM
 		{6014D627-C209-493A-9F83-EA546FBA0F42}.Release|ARM.Build.0 = Release|ARM
 		{6014D627-C209-493A-9F83-EA546FBA0F42}.Release|ARM.Deploy.0 = Release|ARM
@@ -55,6 +63,7 @@ Global
 		{6014D627-C209-493A-9F83-EA546FBA0F42}.Release|x86.ActiveCfg = Release|x86
 		{6014D627-C209-493A-9F83-EA546FBA0F42}.Release|x86.Build.0 = Release|x86
 		{6014D627-C209-493A-9F83-EA546FBA0F42}.Release|x86.Deploy.0 = Release|x86
+		{9D7A8D10-2317-4487-8018-5FF3209CAACF}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{9D7A8D10-2317-4487-8018-5FF3209CAACF}.Debug|ARM.ActiveCfg = Debug|ARM
 		{9D7A8D10-2317-4487-8018-5FF3209CAACF}.Debug|ARM.Build.0 = Debug|ARM
 		{9D7A8D10-2317-4487-8018-5FF3209CAACF}.Debug|ARM.Deploy.0 = Debug|ARM
@@ -64,6 +73,7 @@ Global
 		{9D7A8D10-2317-4487-8018-5FF3209CAACF}.Debug|x86.ActiveCfg = Debug|x86
 		{9D7A8D10-2317-4487-8018-5FF3209CAACF}.Debug|x86.Build.0 = Debug|x86
 		{9D7A8D10-2317-4487-8018-5FF3209CAACF}.Debug|x86.Deploy.0 = Debug|x86
+		{9D7A8D10-2317-4487-8018-5FF3209CAACF}.Release|Any CPU.ActiveCfg = Release|x86
 		{9D7A8D10-2317-4487-8018-5FF3209CAACF}.Release|ARM.ActiveCfg = Release|ARM
 		{9D7A8D10-2317-4487-8018-5FF3209CAACF}.Release|ARM.Build.0 = Release|ARM
 		{9D7A8D10-2317-4487-8018-5FF3209CAACF}.Release|ARM.Deploy.0 = Release|ARM
@@ -73,6 +83,26 @@ Global
 		{9D7A8D10-2317-4487-8018-5FF3209CAACF}.Release|x86.ActiveCfg = Release|x86
 		{9D7A8D10-2317-4487-8018-5FF3209CAACF}.Release|x86.Build.0 = Release|x86
 		{9D7A8D10-2317-4487-8018-5FF3209CAACF}.Release|x86.Deploy.0 = Release|x86
+		{75BFF59E-BE07-45D1-99E2-6099BD8CBF2D}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{75BFF59E-BE07-45D1-99E2-6099BD8CBF2D}.Debug|ARM.ActiveCfg = Debug|ARM
+		{75BFF59E-BE07-45D1-99E2-6099BD8CBF2D}.Debug|ARM.Build.0 = Debug|ARM
+		{75BFF59E-BE07-45D1-99E2-6099BD8CBF2D}.Debug|ARM.Deploy.0 = Debug|ARM
+		{75BFF59E-BE07-45D1-99E2-6099BD8CBF2D}.Debug|x64.ActiveCfg = Debug|x64
+		{75BFF59E-BE07-45D1-99E2-6099BD8CBF2D}.Debug|x64.Build.0 = Debug|x64
+		{75BFF59E-BE07-45D1-99E2-6099BD8CBF2D}.Debug|x64.Deploy.0 = Debug|x64
+		{75BFF59E-BE07-45D1-99E2-6099BD8CBF2D}.Debug|x86.ActiveCfg = Debug|x86
+		{75BFF59E-BE07-45D1-99E2-6099BD8CBF2D}.Debug|x86.Build.0 = Debug|x86
+		{75BFF59E-BE07-45D1-99E2-6099BD8CBF2D}.Debug|x86.Deploy.0 = Debug|x86
+		{75BFF59E-BE07-45D1-99E2-6099BD8CBF2D}.Release|Any CPU.ActiveCfg = Release|x86
+		{75BFF59E-BE07-45D1-99E2-6099BD8CBF2D}.Release|ARM.ActiveCfg = Release|ARM
+		{75BFF59E-BE07-45D1-99E2-6099BD8CBF2D}.Release|ARM.Build.0 = Release|ARM
+		{75BFF59E-BE07-45D1-99E2-6099BD8CBF2D}.Release|ARM.Deploy.0 = Release|ARM
+		{75BFF59E-BE07-45D1-99E2-6099BD8CBF2D}.Release|x64.ActiveCfg = Release|x64
+		{75BFF59E-BE07-45D1-99E2-6099BD8CBF2D}.Release|x64.Build.0 = Release|x64
+		{75BFF59E-BE07-45D1-99E2-6099BD8CBF2D}.Release|x64.Deploy.0 = Release|x64
+		{75BFF59E-BE07-45D1-99E2-6099BD8CBF2D}.Release|x86.ActiveCfg = Release|x86
+		{75BFF59E-BE07-45D1-99E2-6099BD8CBF2D}.Release|x86.Build.0 = Release|x86
+		{75BFF59E-BE07-45D1-99E2-6099BD8CBF2D}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
