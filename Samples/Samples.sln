@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2008
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomTitleBarSample", "CustomTitleBarSample\CustomTitleBarSample.csproj", "{09EBAA32-0451-40AC-9BCB-D8D4CB85AE77}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlTemplateSample", "ControlTemplateSample\ControlTemplateSample.csproj", "{9D7A8D10-2317-4487-8018-5FF3209CAACF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonConvertSample", "JsonConvertSample\JsonConvertSample.csproj", "{75BFF59E-BE07-45D1-99E2-6099BD8CBF2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerSample", "PlayerSample\PlayerSample.csproj", "{5101AD7C-2F67-4F9B-972C-A84018F50B55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,6 +105,26 @@ Global
 		{75BFF59E-BE07-45D1-99E2-6099BD8CBF2D}.Release|x86.ActiveCfg = Release|x86
 		{75BFF59E-BE07-45D1-99E2-6099BD8CBF2D}.Release|x86.Build.0 = Release|x86
 		{75BFF59E-BE07-45D1-99E2-6099BD8CBF2D}.Release|x86.Deploy.0 = Release|x86
+		{5101AD7C-2F67-4F9B-972C-A84018F50B55}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{5101AD7C-2F67-4F9B-972C-A84018F50B55}.Debug|ARM.ActiveCfg = Debug|ARM
+		{5101AD7C-2F67-4F9B-972C-A84018F50B55}.Debug|ARM.Build.0 = Debug|ARM
+		{5101AD7C-2F67-4F9B-972C-A84018F50B55}.Debug|ARM.Deploy.0 = Debug|ARM
+		{5101AD7C-2F67-4F9B-972C-A84018F50B55}.Debug|x64.ActiveCfg = Debug|x64
+		{5101AD7C-2F67-4F9B-972C-A84018F50B55}.Debug|x64.Build.0 = Debug|x64
+		{5101AD7C-2F67-4F9B-972C-A84018F50B55}.Debug|x64.Deploy.0 = Debug|x64
+		{5101AD7C-2F67-4F9B-972C-A84018F50B55}.Debug|x86.ActiveCfg = Debug|x86
+		{5101AD7C-2F67-4F9B-972C-A84018F50B55}.Debug|x86.Build.0 = Debug|x86
+		{5101AD7C-2F67-4F9B-972C-A84018F50B55}.Debug|x86.Deploy.0 = Debug|x86
+		{5101AD7C-2F67-4F9B-972C-A84018F50B55}.Release|Any CPU.ActiveCfg = Release|x86
+		{5101AD7C-2F67-4F9B-972C-A84018F50B55}.Release|ARM.ActiveCfg = Release|ARM
+		{5101AD7C-2F67-4F9B-972C-A84018F50B55}.Release|ARM.Build.0 = Release|ARM
+		{5101AD7C-2F67-4F9B-972C-A84018F50B55}.Release|ARM.Deploy.0 = Release|ARM
+		{5101AD7C-2F67-4F9B-972C-A84018F50B55}.Release|x64.ActiveCfg = Release|x64
+		{5101AD7C-2F67-4F9B-972C-A84018F50B55}.Release|x64.Build.0 = Release|x64
+		{5101AD7C-2F67-4F9B-972C-A84018F50B55}.Release|x64.Deploy.0 = Release|x64
+		{5101AD7C-2F67-4F9B-972C-A84018F50B55}.Release|x86.ActiveCfg = Release|x86
+		{5101AD7C-2F67-4F9B-972C-A84018F50B55}.Release|x86.Build.0 = Release|x86
+		{5101AD7C-2F67-4F9B-972C-A84018F50B55}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

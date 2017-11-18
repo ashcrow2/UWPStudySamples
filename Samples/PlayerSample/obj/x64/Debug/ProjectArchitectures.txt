@@ -1,0 +1,1 @@
+D:\study\uwpProjects\UWPStudySamples\Samples\PlayerSample\PlayerSample.csproj;x64

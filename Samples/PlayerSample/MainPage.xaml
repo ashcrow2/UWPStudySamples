@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="PlayerSample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PlayerSample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <StackPanel>
+            
+            <MediaElement AutoPlay="False"
+                          Source="../Assets/audio/music.mp3"
+                          Name="MyMedioElement"
+                          >
+
+            </MediaElement>
+
+            <Button Click="PlayMyMedioElement">点击播放</Button>
+
+
+            <MediaElement x:Name="mediaElement1" 
+                          Source="../Assets/audio/video.mp4"
+                          AreTransportControlsEnabled="True"
+                          Width="250"
+                          Height="250"
+                          AutoPlay="False">
+                <MediaElement.TransportControls>
+                    <MediaTransportControls IsCompact="False"/>
+                </MediaElement.TransportControls>
+            </MediaElement>
+
+        </StackPanel>
+        
+        
+        
+    </Grid>
+    
+    
+</Page>
